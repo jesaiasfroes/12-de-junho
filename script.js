@@ -16,7 +16,7 @@ const DATA = {
     { data: "2026-04-22", texto: "Primeiro encontro", emoji: "☕" },
     { data: "2026-05-02", texto: "Primeiro beijo", emoji: "💋" },
     { data: "2026-06-06", texto: "Começo do namoro", emoji: "💜" },
-    { data: "2026-06-13", texto: "Primeiro dia juntos", emoji: "✨" },
+    { data: "2026-06-13", texto: "Primeiro de muitos", emoji: "✨" },
   ],
   momentos: [
     { texto: "Primeira troca de mensagens", sub: "16 de fevereiro de 2026" },
@@ -83,7 +83,7 @@ const SLIDES = [
       <div class="slide-inner">
         <div class="kicker">21 de abril de 2026</div>
         <h2 class="title grad">Primeiro encontro</h2>
-        <p class="body">O dia em que te vi de pertinho pela primeira vez. O coração não parava.</p>
+        <p class="body">O dia em que te vi de pertinho. O coração não parava.</p>
       </div>`
   },
   {
