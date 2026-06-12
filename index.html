@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+<title>Couple Rewind</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Playfair+Display:ital,wght@0,500;0,700;1,500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main id="app">
+    <!-- Starfield -->
+    <div class="stars" id="stars"></div>
+
+    <!-- Tela inicial -->
+    <section class="slide intro active" data-slide="intro">
+      <div class="intro-inner">
+        <div class="kicker">Couple Rewind</div>
+        <h1 class="title-xl">A história de<br/><span class="grad" id="introNames">Jesaias &amp; Luana</span></h1>
+        <p class="muted">Toque em qualquer lugar para começar</p>
+        <div class="pulse-dot"></div>
+      </div>
+    </section>
+
+    <!-- Slides serão injetados aqui -->
+    <div id="slides"></div>
+
+    <!-- Controles -->
+    <div class="nav">
+      <button class="nav-btn" id="prevBtn" aria-label="Anterior">‹</button>
+      <button class="nav-btn" id="nextBtn" aria-label="Próximo">›</button>
+    </div>
+
+    <!-- Barra de progresso -->
+    <div class="progress" id="progress"></div>
+
+    <!-- Audio control -->
+    <button class="audio-btn" id="audioBtn" aria-label="Música">♪</button>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
